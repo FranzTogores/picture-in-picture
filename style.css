@@ -10,11 +10,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(194, 194, 194);
 }
 
 .button-container {
-    border: 2px solid black;
+    border: 2px solid rgb(129, 0, 0);
     padding: 10px;
     border-radius: 7px;
     box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
@@ -29,14 +29,14 @@ button {
     font-size: 25px;
     color: white;
     text-shadow: 0 2px 5px black;
-    background: linear-gradient(to top, #696969, #575757);
+    background: linear-gradient(to top, #b40000, #550101);
     border-color: 2px solid black;
     border-radius: 7px;
     box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.3);
 }
 
 button:hover {
-    background: linear-gradient(to bottom, #696969, #575757);
+    background: linear-gradient(to bottom, #b40000, #550101);
 }
 
 button:active {
